@@ -1,4 +1,4 @@
-const { zokou } = require('../framework/zokou');
+@const { zokou } = require('../framework/zokou');
 
 zokou({ nomCom: 'quote', categorie: 'Fun' }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, verifGroupe, arg } = commandeOptions;
@@ -13,14 +13,14 @@ zokou({ nomCom: 'quote', categorie: 'Fun' }, async (dest, zk, commandeOptions) =
         .then((response) => response.json())
         .then(async (quote) => {
           repondre(`╔══════════════════════════╗
-║   DEXTER-MD              ║
+║   RUSH-MD              ║
 ╚══════════════════════════╝
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *⚔ DEXTER ⚔*`);
+Powered by *⚔ RUSH ⚔*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
@@ -33,7 +33,7 @@ Powered by *⚔ DEXTER ⚔*`);
         .then((response) => response.json())
         .then(async (quote) => {
           repondre(`╔══════════════════════════╗
-║   DEXTER-MD               ║
+║   RUSH-MD               ║
 ╚══════════════════════════╝
 
 🎬 Anime: ${quote.anime}
