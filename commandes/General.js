@@ -94,7 +94,7 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("⚔ *DEXTER SHARE LINKN* ⚔")
-  await zk.sendMessage(auteurMessage,{text : `https://wa.me/94789958225`},{quoted :ms})
+  repondre("⚔ *RUSH SHARE LINKN* ⚔")
+  await zk.sendMessage(auteurMessage,{text : `https://wa.me/94762498519`},{quoted :ms})
 
 })
