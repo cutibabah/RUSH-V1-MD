@@ -31,7 +31,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────✧𝗥𝗨𝗦𝗛-𝐌𝐃✧────◆
+╭────✧𝗥𝗨𝗦𝗛-𝐌𝐃✧─꧂⫸⭐👑───◆
 │♨ *Préfix* : ${s.PREFIXE}
 │♨ *Mode* : ${mode}
 │♨ *Commands* : ${cm.length} 
@@ -53,7 +53,7 @@ const date = moment().format('DD/MM/YYYY');
         menuMsg += `*╭────💫* *${cat}* *💫⊷*`;
         for (const cmd of coms[cat]) {
             menuMsg += `
- *|🐉* ${cmd}`;
+ *|🇱🇰* ${cmd}`;
         }
         menuMsg += `
 *╰═════════════⊷* \n`
